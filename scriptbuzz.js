@@ -36,7 +36,10 @@
 //     }
 // }
 
+let main = document.querySelector('div')
+let ul = document.createElement('ul')
 
+main.append(ul)
 
 function fizzbuzz() {
     for (let i = 1; i <= 100; i++) {
@@ -66,7 +69,11 @@ function fizzbuzz() {
             output = i;
         }
 
-        console.log(output);
+        let numbers = document.createElement('li')
+        numbers.textContent = output
+        ul.append(numbers)
+
+        // console.log(output);
     }
 }
 
