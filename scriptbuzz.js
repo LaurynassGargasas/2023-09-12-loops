@@ -36,12 +36,12 @@
 //     }
 // }
 
-let main = document.querySelector('div')
-let ul = document.createElement('ul')
-
-main.append(ul)
 
 function fizzbuzz() {
+    let main = document.querySelector('div')
+    let ul = document.createElement('ul')
+    
+    main.append(ul)
     for (let i = 1; i <= 100; i++) {
         let output = '';
 
